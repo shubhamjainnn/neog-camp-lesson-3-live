@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+
+    <!-- css way 1 style tag -->
+    <!-- <style>
+        body{color:red}
+    </style> -->
+
+    <!-- third way to doing css: external links-->
+<link href="/styles.css" rel="stylesheet" />
+
+</head>
+<body>
+    <h1 >  welcome to tanay's component library</h1>
+    <p >I am attending neo.g camp and I want to make library which would make all my projects
+         look good and consistent.</p>
+
+<hr>
+
+
+<h2>@typography</h2>
+
+<h1>This is the biggest heading</h1>
+<h2>This is the second biggest heading</h2>
+<p>Let me show you the normal text. This is free flowing and will wrap at the and
+    like a paragraphy</p>
+    <p>this paragraph will have a <strong>bold</strong>text</p>
+    <small>This is relatively smaller text</small>
+
+    <hr>
+
+    <h2>@container</h2>
+
+    <h3>fluid container</h3>
+    <div class="container">This is a fluid container and it will go till the end of the page</div>
+
+    <h3>center container</h3>
+    <div class="container
+     container-center">This is a centered container and it will go till the specified width</div>
+
+    <hr>
+
+<h2>@Links</h2>
+
+<a class="link link-primary"
+href="/">primary link</a>
+<a class="link link-secondary"
+href="/">secondary link</a>
+
+<hr>
+
+<h2>@Lists</h2>
+
+<h3>unorderd Lists</h3>
+<p>This list will not have a bullet</p>
+
+<ul class="list-non-bullet">
+    <li>Itom One</li>
+    <li>Itom Two</li>
+    <li>Itom Three</li>
+
+</ul>
+
+<h3>Unorderd Inline List</h3>
+
+<ul class="list-non-bullet">
+<li class="list-itom-inline">Inline Itom One</li>
+<li class="list-itom-inline">Inline Itome Two</li>
+<li class="list-itom-inline">Inline Itome Three</li>
+
+</ul>
+
+<h3>Reverse Ordered List</h3>
+
+<ol reversed>
+    <li>milk</li>
+    <li>egges</li>
+    <li>bread</li>
+
+</ol>
+
+<hr>
+
+<h3>@nav</h3>
+
+<nav class="navigation container">
+    <div class="nav-brand">IAmBrand</div>
+
+    <ul class="list-non-bullet nav-pills">
+        <li class="list-itom-inline">
+            <a class="link link-active" href="/">home</a></li>
+        <li class="list-itom-inline">
+            <a class="link"href="/">projects</a></li>
+        <li class="list-itom-inline">
+            <a class="link"href="/">about</a></li>
+
+    </ul>
+</nav>
+
+<hr>
+
+<h3>@header</h3>
+
+<header class="hero">
+    <img class="hero-img" src="images/hero.svg"/>
+    <h1 class="hero-heading">adarsh balika the <span class="heading-inverted">web developer</span></h1>
+</header>
+
+<hr>
+
+<h2>@section</h2>
+
+<section class="section">
+    <div class="container
+        container-center">  <h1>white section</h1>
+    <p>It's a lot of work to create a professional website, 
+        so if you're new to web development, we encourage you to start small. 
+        You won't build another Facebook right away,
+         but it's not hard to make your own simple website online, 
+         so we'll start there</p></div>  
+</section>
+
+<section class="section ow">
+   <div class="container container-center"> 
+    <h1> off white section</h1>
+    <p>It's a lot of work to create a professional website, 
+        so if you're new to web development, we encourage you to start small. 
+        You won't build another Facebook right away,
+         but it's not hard to make your own simple website online, 
+         so we'll start there</p></div>
+</section>
+
+<hr>
+
+<h2>@footer</h2>
+
+<footer class="footer">
+    <div class="footer-header">
+        some small heading inside footer</div>
+<ul class="social-links
+list-non-bullet">
+    <li class="list-itom-inline">
+        <a class="link"
+        href="/">
+        socialone
+    </a>
+    </li>
+    <li class="list-itom-inline">
+        <a class="link"href="/">
+         socialtwo</a></li>
+    <li class="list-itom-inline">
+        <a class="link"
+        href="/">socialthree</a></li>
+</ul>
+
+
+
+</footer>
+</body>
+</html>
