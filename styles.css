@@ -8,7 +8,7 @@
 
 
 body{
-    font-family: 'Montserrat',
+    font-family: ' system-ui',
      sans-serif;
      margin: 0px;
 }
@@ -35,6 +35,7 @@ hr{
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+  
 
 }
 
